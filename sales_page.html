@@ -1,0 +1,86 @@
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Sales Page</title>
+    <link rel="stylesheet" href="sales.css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,600" rel="stylesheet">
+</head>
+<body>
+    <div id="container">
+        <header>
+            <img src="logo.jpg" class="logo">
+            <h1>YOU'RE SECONDS AWAY FROM ACCESSING YOUR EVERYTHING 80'S MEMBERSHIP</h1>
+        </header>
+        <div id="form">
+            <div id="left">
+                <div id="contact">
+                    <h2 class="topHeader">ENTER YOUR CONTACT INFORMATION</h2>
+                    <input type="text" placeholder="First Name">
+                    <input type="text" placeholder="Last Name">
+                    <input type="email" placeholder="Email Address">
+                    <input type="tel" placeholder="Phone Number">
+                </div> <!-- contact -->
+                <div id="coupon">
+                    <input type="text" placeholder="Coupon Code">
+                    <button>Apply Coupon</button>
+                </div> <!-- coupon -->
+                <div id="payment">
+                    <h2>ENTER YOUR PAYMENT OPTION</h2>
+                    <div class="payOption" id="999">
+                        <div class="poLeft">
+                            <div class="radioBtn">
+                                <input type="radio" name="paymentOption" id="payOption1">
+                            </div>
+                            <div class="payInfo">
+                                $9.99 Today<br />
+                                <span class="note">Then 9.99 Monthly</span>
+                            </div> <!-- payInfo -->
+                        </div>
+                        <div class="poRight">$9.99
+                        </div>
+                    </div>
+                    <div class="payOption" id="9999">
+                        <div class="poLeft">
+                            <div class="radioBtn">
+                                <input type="radio" name="paymentOption" id="payOption2">
+                            </div>
+                            <div class="payInfo">
+                                $99.99 Today<br />
+                                <span class="note">Then 99.99 Monthly</span>
+                            </div> <!-- payInfo -->
+                        </div>
+                        <div class="poRight">$99.99
+                        </div>
+                    </div>
+                </div><!-- payment -->
+                <div id="ccInfo">
+                    <h2>ENTER YOUR CREDIT CARD INFORMATION</h2>
+                    <input type="text" placeholder="Card Number" class="fullWidth" />
+                    <input type="text" placeholder="MM/YY" />
+                    <input type="text" placeholder="CVC" /><br />
+                    <div id="cardImage">
+                        <img src="cards.png" />
+                    </div><!-- cardImage -->
+                </div><!-- ccInfo -->
+                <div id="summary">
+                    <h2>ORDER SUMMARY</h2>
+                    <p>Total: <output id="totalOut">$9.99</output></p>
+                    <div id="buttonSpace">
+                        <button id="goButton">JOIN NOW</button>
+                    </div>
+                </div><!-- summary -->
+            </div>
+
+            <div id="right">
+                <img src="eighties.jpg" />
+                <h3><strong>EVERYTHING 80's GOLD MEMBERSHIP</strong></h3>
+                <p>Membership in everything 80's Gold Program includes access to numerous
+                    resources to help you celebrate the eighties.</p>
+            </div><!-- right -->
+        </div><!-- form -->
+    </div> <!-- container-->
+    <script src="sales.js"></script>
+</body>
+
+</html>
